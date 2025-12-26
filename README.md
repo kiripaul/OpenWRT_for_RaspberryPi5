@@ -85,9 +85,17 @@ sudo sync
 
 #### On Windows:
 
-1. Download and install [Etcher](https://www.balena.io/etcher/) or [Rufus](https://rufus.ie/)
+1. Download and install [Etcher](https://www.balena.io/etcher/), [Rufus](https://rufus.ie/), or [RaspberryPiImager](Recommended)(https://www.raspberrypi.com/software/)
+   - If you use RaspberryPiImager, skip to step 4. All steps after step 4 are specific for RaspberryPiImager ONLY.
 2. Decompress the `.img.gz` file (use 7-Zip or similar)
 3. Use Etcher/Rufus to write the `.img` file to your SD card
+4. If you are using RaspberryPiImager, you do not need to Decompress or Unzip the `*.img.gz`files. Simply click-on and open whichever `*.img.gz`file you are going to use and follow the prompts through RaspberryPiImager.
+5. Select Raspberry Pi 5
+6. Select your choice of OS (64 bit recommended)
+7. Mount it on your empty SD card
+8. Complete your customization configurations
+9. Finish writing your configurations to the SD card
+   - If Windows offers to format the drive, cancel out of it and ignore it
 
 #### On macOS (Alternative):
 
@@ -128,7 +136,7 @@ diskutil eject /dev/diskN
 #### Web Interface (LuCI)
 
 1. Connect your computer to the Raspberry Pi 5 via Ethernet
-2. Open a web browser and navigate to: `http://192.168.1.1`
+2. Open a web browser and navigate to: `http://192.168.1.1` or `http://10.42.0.1/`
 3. **Default credentials**:
    - Username: `root`
    - Password: *(none - leave blank)*
