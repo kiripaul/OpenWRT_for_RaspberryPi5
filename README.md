@@ -251,6 +251,7 @@ Refer to the [prplMesh documentation](https://prplfoundation.org/) for mesh setu
 3. **Try different SD card** - some cards are incompatible
 4. **Check SD card is fully inserted**
 5. **Connect HDMI monitor** to view boot messages
+6. **Connect 5v power supply to RaspberryPi** - this forces it to boot. It also told me that I needed to reassemble my stack to make the pogo-pins have a tighter contact with my Pi.
 
 ### Network Not Working
 
