@@ -90,11 +90,12 @@ sudo sync
 2. Decompress the `.img.gz` file (use 7-Zip or similar)
 3. Use Etcher/Rufus to write the `.img` file to your SD card
 4. If you are using RaspberryPiImager, you do not need to Decompress or Unzip the `*.img.gz`files. Simply click-on and open whichever `*.img.gz`file you are going to use and follow the prompts through RaspberryPiImager.
-5. Select Raspberry Pi 5
-6. Select your choice of OS (64 bit recommended)
-7. Mount it on your empty SD card
-8. Complete your customization configurations
-9. Finish writing your configurations to the SD card
+5. Scroll to the bottom of the OS list and select 'Use Custom'
+6. Then, select whichever `*.img.gz`file you want the RaspberryPi to boot from (Factory for new installs, upgrade for upgrades)
+7. Next, select your choice of OS (64 bit recommended)
+8. Mount it on your empty SD card
+9. Complete your customization configurations
+10. Finish writing your configurations to the SD card
    - If Windows offers to format the drive, cancel out of it and ignore it
 
 #### On macOS (Alternative):
