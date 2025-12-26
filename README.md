@@ -252,6 +252,7 @@ Refer to the [prplMesh documentation](https://prplfoundation.org/) for mesh setu
 4. **Check SD card is fully inserted**
 5. **Connect HDMI monitor** to view boot messages
 6. **Connect 5v power supply to RaspberryPi** - this forces it to boot. It also told me that I needed to reassemble my stack to make the pogo-pins have a tighter contact with my Pi.
+7. **Check your pogo pins** - I had to manually fiddle with each pogo pin once the stack was assembled; one of the pins didn't make full contact. Once it made contact, the Pi booted up.
 
 ### Network Not Working
 
